@@ -1,14 +1,24 @@
+## Run Deno
+
+```sh
+deno task dev
+```
+
+## Send a Request
+
+```sh
+curl http://localhost:8000/
+```
+
 ## Run　Garafana
 
 ```sh
 ./run.sh
 ```
 
-## Run Deno
+## Dashboard
 
-```sh
-deno task dev
-```
+Open http://localhost:3000/ in your browser.
 
 ## Reference
 
