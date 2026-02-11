@@ -11,10 +11,10 @@ curl http://localhost:8000/
 curl http://localhost:8000/todos/1
 ```
 
-## Run　Garafana
+## Run Grafana
 
 ```sh
-./run.sh
+make run
 ```
 
 ## Dashboard
