@@ -1,0 +1,16 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@opentelemetry/api@^1.9.0": "1.9.0"
+  },
+  "jsr": {
+    "@opentelemetry/api@1.9.0": {
+      "integrity": "a8a4980ff5eff7bd322715cad1a128b3208675f1e05b8adbfcf6b240502739b7"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@opentelemetry/api@^1.9.0"
+    ]
+  }
+}

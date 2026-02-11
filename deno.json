@@ -3,5 +3,7 @@
   "tasks": {
     "dev": "export OTEL_SERVICE_NAME=deno-api && export OTEL_DENO=true && deno run --allow-net server.ts"
   },
-  "imports": {}
+  "imports": {
+    "@opentelemetry/api": "jsr:@opentelemetry/api@^1.9.0"
+  }
 }

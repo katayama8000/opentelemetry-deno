@@ -8,6 +8,7 @@ deno task dev
 
 ```sh
 curl http://localhost:8000/
+curl http://localhost:8000/todos/1
 ```
 
 ## Run　Garafana
