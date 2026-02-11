@@ -1,7 +1,7 @@
 .PHONY: run stop remove
 
 run:
-	docker run --name lgtm -p 3000:3000 -p 4317:4317 -p 4318:4318 --rm -ti \
+	docker run --name lgtm -d -p 3000:3000 -p 9090:9090 -p 4317:4317 -p 4318:4318 --rm \
 	    -v "$(PWD)"/lgtm/grafana:/data/grafana \
 	    -v "$(PWD)"/lgtm/prometheus:/data/prometheus \
 	    -v "$(PWD)"/lgtm/loki:/data/loki \
